@@ -1,9 +1,13 @@
 @import "tailwindcss";
 
-body {
-  font-family: Outfit;
+/* base styles (optional) */
+@layer base {
+  body {
+    font-family: Outfit;
+  }
 }
 
+/* theme variables */
 @theme {
   --color-lightHover: #fcf4ff;
   --color-darkHover: #2a004a;
@@ -13,4 +17,11 @@ body {
   --font-Ovo: "Ovo", serif;
 
   --shadow-black: 4px 4px 0 #000;
+}
+
+/* custom utility — @layer utilities ensures Tailwind recognizes it as a utility */
+@layer utilities {
+  .grid-cols-services {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }

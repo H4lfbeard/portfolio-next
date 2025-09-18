@@ -47,12 +47,12 @@ const Navbar = () => {
         >
           <li>
             <a href="#top" className="font-Ovo">
-              Home
+              Accueil
             </a>
           </li>
           <li>
             <a href="#about" className="font-Ovo">
-              About me
+              À propos
             </a>
           </li>
           <li>
@@ -62,12 +62,12 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#work" className="font-Ovo">
-              My work
+              Mon travail
             </a>
           </li>
           <li>
             <a href="#contact" className="font-Ovo">
-              Contact me
+              Me contacter
             </a>
           </li>
         </ul>

@@ -9,23 +9,24 @@ const Header = () => {
         <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
       </div>
       <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
-        Hi ! I'm Thomas HUMBERT
+        Hey ! je m'appel Thomas HUMBERT
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </h3>
       <h1 className="text-3xl sm:test-6xl lg:text-[66px] font-Ovo">
-        Designer and integrator Web based in Bordeaux
+        Designer et intégrateur web basé à Bordeaux
       </h1>
       <p className="max-w-2xl mx-auto font-Ovo ">
-        I am a designer and integrator web from Annecy now based in Bordeaux
-        with more than 7 years of experience. I just recently followed a 6
-        months React JS bootcamp in order to improve my web knowledge.
+        Je suis designer et intégrateur web originaire d'Annecy et maintenant
+        basé à Bordeaux avec plus de 7 années d'expériences. J'ai récemment
+        suivi un bootcamp sur JS et ReactJS de 6 mois dans le but d'améliorer
+        mes connaissances en web.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">
         <a
           href="#contact"
           className="px-10 py-3 border rounded-full border-gray-500 bg-black text-white flex items-center gap-2"
         >
-          contact me
+          Me contacter
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
         </a>
         <a
@@ -33,7 +34,7 @@ const Header = () => {
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2"
         >
-          My resume
+          Télécharger mon CV
           <Image src={assets.download_icon} alt="" className="w-4" />
         </a>
       </div>

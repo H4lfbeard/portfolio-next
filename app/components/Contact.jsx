@@ -29,7 +29,7 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20">
+    <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20 ">
       <h4 className="text-center mb-2 text-lg font-Ovo">
         Vous êtes au bon endroit pour
       </h4>
@@ -42,14 +42,14 @@ export const Contact = () => {
       <form className="max-w-2xl mx-auto" onSubmit={onSubmit}>
         <div className="grid grid-cols-services gap-6 mt-10 mb-8">
           <input
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
             type="text"
             placeholder="Entrez votre nom"
             required
             name="name"
           ></input>
           <input
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
             type="text"
             placeholder="Entrez votre email"
             required
@@ -57,14 +57,14 @@ export const Contact = () => {
           ></input>
         </div>
         <textarea
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6"
+          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
           rows="6"
           placeholder="Entrez votre message"
           required
           name="message"
         ></textarea>
         <button
-          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 cursor-pointer text-white rounded-full mx-auto hover:bg-black duration-500"
+          className="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 cursor-pointer text-white rounded-full mx-auto hover:bg-black duration-500 dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover"
           type="submit"
         >
           Envoyer

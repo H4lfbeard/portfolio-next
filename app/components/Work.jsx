@@ -2,7 +2,7 @@ import { assets, workData } from "@/assets/assets";
 import React from "react";
 import Image from "next/image";
 
-export const Work = () => {
+export const Work = (isDarkMode) => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Mon portfolio</h4>
@@ -13,7 +13,7 @@ export const Work = () => {
         mon expertise en design et intégration web.
       </p>
 
-      <ul className="grid grid-cols-services gap-5 my-10">
+      <ul className="grid grid-cols-services gap-5 my-10 dark:text-black">
         {workData.map((project, index) => (
           <li
             key={index}
@@ -35,11 +35,13 @@ export const Work = () => {
 
       <a
         href=""
-        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500"
+        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
         Show more{" "}
         <Image
-          src={assets.right_arrow_bold}
+          src={
+            isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold
+          }
           alt="right arrow"
           className="w-4"
         />

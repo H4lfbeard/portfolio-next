@@ -19,6 +19,8 @@
   --shadow-black: 4px 4px 0 #000;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 /* custom utility — @layer utilities ensures Tailwind recognizes it as a utility */
 @layer utilities {
   .grid-cols-services {

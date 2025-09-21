@@ -1,12 +1,27 @@
 import { assets, workData } from "@/assets/assets";
 import React from "react";
 import Image from "next/image";
+import { motion } from "motion/react";
 
-export const Work = (isDarkMode) => {
+export const Work = ({ isDarkMode }) => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">Mon portfolio</h4>
-      <h2 className=" text-center text-5xl font-Ovo">Mes derniers projets</h2>
+      <motion.h4
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="text-center mb-2 text-lg font-Ovo"
+      >
+        Mon portfolio
+      </motion.h4>
+      <motion.h2
+        initial={{ y: 40, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className=" text-center text-5xl font-Ovo"
+      >
+        Mes derniers projets
+      </motion.h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Bienvenue sur mon portfolio de designer et intégrateur web. Ici vous
         pouvez visiter une collections de mes derniers projets mettant en avant
@@ -37,7 +52,7 @@ export const Work = (isDarkMode) => {
         href=""
         className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
-        Show more{" "}
+        Voir plus{" "}
         <Image
           src={
             isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold

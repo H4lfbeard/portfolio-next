@@ -2,14 +2,27 @@ import { serviceData } from "@/assets/assets";
 import React from "react";
 import Image from "next/image";
 import { assets } from "@/assets/assets";
+import { motion } from "motion/react";
 
 export const Services = () => {
   return (
     <div id="services" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">
+      <motion.h4
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="text-center mb-2 text-lg font-Ovo"
+      >
         Ce que j'ai à offrir
-      </h4>
-      <h2 className=" text-center text-5xl font-Ovo">Mes services</h2>
+      </motion.h4>
+      <motion.h2
+        initial={{ y: 40, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className=" text-center text-5xl font-Ovo"
+      >
+        Mes services
+      </motion.h2>
       <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Des connaissances allant du design à l'intégration web, mes 7 années de
         travail au sein d'une startup puis d'un grand groupe mon permis

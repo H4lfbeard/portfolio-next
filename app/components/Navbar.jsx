@@ -50,27 +50,42 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           }`}
         >
           <li>
-            <a href="#top" className="font-Ovo">
+            <a
+              href="#top"
+              className="font-Ovo hover:text-black/70 duration-200"
+            >
               Accueil
             </a>
           </li>
           <li>
-            <a href="#about" className="font-Ovo">
+            <a
+              href="#about"
+              className="font-Ovo hover:text-black/70 duration-200"
+            >
               À propos
             </a>
           </li>
           <li>
-            <a href="#services" className="font-Ovo">
+            <a
+              href="#services"
+              className="font-Ovo hover:text-black/70 duration-200"
+            >
               Services
             </a>
           </li>
           <li>
-            <a href="#work" className="font-Ovo">
+            <a
+              href="#work"
+              className="font-Ovo hover:text-black/70 duration-200"
+            >
               Mon travail
             </a>
           </li>
           <li>
-            <a href="#contact" className="font-Ovo">
+            <a
+              href="#contact"
+              className="font-Ovo hover:text-black/70 duration-200"
+            >
               Me contacter
             </a>
           </li>
@@ -78,7 +93,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
         <div className="flex items-center gap-4">
           <button
-            className="cursor-pointer"
+            className="cursor-pointer "
             onClick={() => setIsDarkMode((prev) => !prev)}
           >
             <Image
@@ -89,7 +104,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 dark:border-white/50"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 hover:bg-lightHover duration-500 dark:border-white/50 dark:hover:bg-darkHover"
           >
             Contact{" "}
             <Image

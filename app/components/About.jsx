@@ -1,12 +1,27 @@
 import React from "react";
 import Image from "next/image";
 import { assets, infoList, toolsData } from "@/assets/assets";
+import { motion } from "motion/react";
 
 export const About = ({ isDarkMode }) => {
   return (
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
-      <h4 className="text-center mb-2 text-lg font-Ovo">Introduction</h4>
-      <h2 className=" text-center text-5xl font-Ovo">À propos de moi</h2>
+      <motion.h4
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.6, delay: 0.5 }}
+        className="text-center mb-2 text-lg font-Ovo"
+      >
+        Introduction
+      </motion.h4>
+      <motion.h2
+        initial={{ y: 40, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className=" text-center text-5xl font-Ovo"
+      >
+        À propos de moi
+      </motion.h2>
 
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div className="w-64 sm:w-80 rounded-3xl max-w-none">

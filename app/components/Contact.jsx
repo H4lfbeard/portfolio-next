@@ -64,7 +64,7 @@ export const Contact = () => {
             initial={{ x: -50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white/50 dark:bg-darkHover/30 dark:border-white/90"
             type="text"
             placeholder="Entrez votre nom"
             required
@@ -74,7 +74,7 @@ export const Contact = () => {
             initial={{ x: 50, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white dark:bg-darkHover/30 dark:border-white/90"
+            className="flex-1 p-3 outline-none border-[0.5px] border-gray-400 rounded-md bg-white/50 dark:bg-darkHover/30 dark:border-white/90"
             type="text"
             placeholder="Entrez votre email"
             required
@@ -85,7 +85,7 @@ export const Contact = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90"
+          className="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white/50 mb-6 dark:bg-darkHover/30 dark:border-white/90"
           rows="6"
           placeholder="Entrez votre message"
           required

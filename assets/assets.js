@@ -78,38 +78,43 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
+        title: "Bald's Man",
+        description: 'Web App',
         bgImage: '/work-1.png',
+        link: 'https://www.behance.net/gallery/229744863/Balds-Man-Haidresser',
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
+        title: 'Veever',
+        description: 'Web App',
         bgImage: '/work-2.png',
+        link: 'https://www.behance.net/gallery/229739945/Veever',
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
+        title: 'Wildify',
+        description: 'Web App',
         bgImage: '/work-3.png',
+        link: 'https://www.behance.net/gallery/229730863/Wildify',
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
+        title: 'WildEats',
+        description: 'Web App',
         bgImage: '/work-4.png',
+        link: 'https://www.behance.net/gallery/229635015/Wild-Eats',
     },
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web designing is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Design web', description: "Création de maquettes responsive adapté aux besoins clients", link: '' },
+    { icon: assets.mobile_icon, title: 'Intégration web', description: "Intégration de maquettes en utilisant HTML, CSS, JS React, NextJS", link: '' },
+    { icon: assets.graphics_icon, title: 'Emailings & newsletters', description: "Création d'emailings et newsletters avec Mailjet, Mailchimp, etc..", link: '' },
+    { icon: assets.ui_icon, title: 'Motion design', description: "Animation de vidéos à destinations des réseaux sociaux ou de bannières animés", link: '' },
+
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Parcours', description: 'Formation designer & intégrateur web à Aries, Master en formats et contenus audiovisuel.' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: "Création de projets variés, design, intégration, motion design, emailings." }
 ];
 
 export const toolsData = [

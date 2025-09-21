@@ -52,7 +52,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               href="#top"
-              className="font-Ovo hover:text-black/70 duration-200"
+              className="font-Ovo hover:text-black/70 dark:hover:text-white/80 duration-300"
             >
               Accueil
             </a>
@@ -60,7 +60,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               href="#about"
-              className="font-Ovo hover:text-black/70 duration-200"
+              className="font-Ovo hover:text-black/70 dark:hover:text-white/80 duration-300"
             >
               À propos
             </a>
@@ -68,7 +68,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               href="#services"
-              className="font-Ovo hover:text-black/70 duration-200"
+              className="font-Ovo hover:text-black/70 dark:hover:text-white/80 duration-300"
             >
               Services
             </a>
@@ -76,7 +76,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               href="#work"
-              className="font-Ovo hover:text-black/70 duration-200"
+              className="font-Ovo hover:text-black/70 dark:hover:text-white/80 duration-300"
             >
               Mon travail
             </a>
@@ -84,7 +84,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <li>
             <a
               href="#contact"
-              className="font-Ovo hover:text-black/70 duration-200"
+              className="font-Ovo hover:text-black/70 dark:hover:text-white/80 duration-300"
             >
               Me contacter
             </a>

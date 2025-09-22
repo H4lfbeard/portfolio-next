@@ -33,12 +33,12 @@ export const Work = ({ isDarkMode }) => {
           <li
             key={index}
             style={{ backgroundImage: `url(${project.bgImage})` }}
-            className="aspect-square bg-no-repeat bg-center bg-cover border relative group border-gray-400 rounded-lg px-8 py-12 cursor-pointer hover:shadow-black hover:-translate-y-1 duration-500"
+            className="aspect-square bg-no-repeat bg-center bg-cover border relative group border-gray-400 rounded-lg px-8 py-12  hover:shadow-black hover:-translate-y-1 duration-500"
           >
             <a
               href={project.link}
               target="_blank"
-              className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7"
+              className="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7 cursor-pointer"
             >
               <div>
                 <h2 className="font-semibold">{project.title}</h2>
@@ -55,7 +55,7 @@ export const Work = ({ isDarkMode }) => {
       <a
         href="https://www.behance.net/humbertthoa68c#"
         target="_blank"
-        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
+        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover/30 duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
         Voir plus{" "}
         <Image

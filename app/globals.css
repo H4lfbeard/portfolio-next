@@ -9,9 +9,9 @@
 
 /* theme variables */
 @theme {
-  --color-lightHover: #ffd230;
-  --color-darkHover: #2a004a;
-  --color-darkTheme: #11001f;
+  --color-lightHover: #fbbf24;
+  --color-darkHover: #353744;
+  --color-darkTheme: #262626;
 
   --font-Outfit: "Outfit", sans-serif;
   --font-Ovo: "Ovo", serif;

@@ -52,7 +52,7 @@ const Header = () => {
         <a
           href="/resume.pdf"
           download
-          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-amber-50 hover:bg-lightHover duration-500 dark:text-black dark:bg-white/90 dark:hover:bg-white"
+          className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-amber-50 hover:bg-lightHover/30 duration-500 dark:text-black dark:bg-white/90 dark:hover:bg-white"
         >
           Télécharger mon CV
           <Image src={assets.download_icon} alt="" className="w-4" />

@@ -112,9 +112,9 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js.' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Parcours', description: 'Formation designer & intégrateur web à Aries, Master en formats et contenus audiovisuel.' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: "Création de projets variés, design, intégration, motion design, emailings." }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js.', link: 'https://github.com/H4lfbeard' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Parcours', description: 'Formation designer & intégrateur web à Aries, Master en formats et contenus audiovisuel.', link: 'https://www.linkedin.com/in/thomas-humbert-760b37111/details/education/' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projets', description: "Création de projets variés, design, intégration, motion design, emailings.", link: 'https://www.behance.net/humbertthoa68c' }
 ];
 
 export const toolsData = [

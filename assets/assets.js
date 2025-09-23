@@ -84,6 +84,12 @@ export const workData = [
         link: 'https://www.behance.net/gallery/229744863/Balds-Man-Haidresser',
     },
     {
+        title: 'Pétanque Club',
+        description: 'Web App',
+        bgImage: '/work-4.png',
+        link: 'https://www.behance.net/gallery/235212369/Le-ptanque-club',
+    },
+    {
         title: 'Veever',
         description: 'Web App',
         bgImage: '/work-2.png',
@@ -95,12 +101,7 @@ export const workData = [
         bgImage: '/work-3.png',
         link: 'https://www.behance.net/gallery/229730863/Wildify',
     },
-    {
-        title: 'WildEats',
-        description: 'Web App',
-        bgImage: '/work-4.png',
-        link: 'https://www.behance.net/gallery/229635015/Wild-Eats',
-    },
+
 ]
 
 export const serviceData = [

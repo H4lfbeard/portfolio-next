@@ -19,7 +19,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.5 }}
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
-        Hey ! je m'appelle Thomas HUMBERT
+        Hey ! Je m'appelle Thomas HUMBERT
         <Image src={assets.hand_icon} alt="" className="w-6" />
       </motion.h3>
       <motion.h1

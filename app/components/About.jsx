@@ -72,7 +72,11 @@ export const About = ({ isDarkMode }) => {
                 className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg hover:-translate-y-1 duration-500 hover:shadow-black dark:hover:bg-darkHover/50 dark:hover:shadow-white"
                 key={index}
               >
-                <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
+                <Image
+                  src={tool}
+                  alt="picto de l'outils"
+                  className="w-5 sm:w-7"
+                />
               </li>
             ))}
           </ul>

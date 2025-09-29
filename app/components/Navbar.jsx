@@ -98,17 +98,17 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           >
             <Image
               src={isDarkMode ? assets.sun_icon : assets.moon_icon}
-              alt=""
+              alt="picto light et dark mode"
               className="w-6"
             />
           </button>
           <a
             href="#contact"
-            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 hover:bg-lightHover/30 duration-500 dark:border-white/50 dark:hover:bg-darkHover"
+            className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 hover:bg-lightHover/0 duration-500 dark:border-white/50 dark:hover:bg-darkHover"
           >
             Contact{" "}
             <Image
-              alt=""
+              alt="picto de redirection vers le formulaire de contact"
               src={isDarkMode ? assets.arrow_icon_dark : assets.arrow_icon}
               className="w-3"
             />
@@ -116,7 +116,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <button className="block md:hidden ml-3">
             <Image
               src={isDarkMode ? assets.menu_white : assets.menu_black}
-              alt=""
+              alt="picto menu burger"
               className="w-6"
               onClick={openMenu}
             />
@@ -133,7 +133,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           <div className="absolute right-6 top-6" onClick={closeMenu}>
             <Image
               src={isDarkMode ? assets.close_white : assets.close_black}
-              alt="bouton fermer le meny"
+              alt="picto fermer le menu burger"
               className="w-5 cursor-pointer"
             />
           </div>

@@ -97,7 +97,7 @@ export const Contact = () => {
         >
           Envoyer
           <Image
-            alt="right arrow"
+            alt="flèche droite"
             src={assets.right_arrow_white}
             className="w-4"
           />

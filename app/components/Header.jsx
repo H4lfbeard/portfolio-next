@@ -11,7 +11,11 @@ const Header = () => {
         whileInView={{ scale: 1 }}
         transition={{ duration: 0.8, type: "spring" }}
       >
-        <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
+        <Image
+          src={assets.profile_img}
+          alt="Photo de Thomas Humbert"
+          className="rounded-full w-32"
+        />
       </motion.div>
       <motion.h3
         initial={{ y: -20, opacity: 0 }}
@@ -20,7 +24,11 @@ const Header = () => {
         className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo"
       >
         Hey ! Je m'appelle Thomas HUMBERT
-        <Image src={assets.hand_icon} alt="" className="w-6" />
+        <Image
+          src={assets.hand_icon}
+          alt="picto de main qui salue"
+          className="w-6"
+        />
       </motion.h3>
       <motion.h1
         initial={{ y: 40, opacity: 0 }}
@@ -47,7 +55,11 @@ const Header = () => {
           className="px-10 py-3 border rounded-full border-gray-500 bg-black text-white flex items-center gap-2 hover:bg-black/80 duration-500 dark:bg-transparent dark:hover:bg-darkHover"
         >
           Me contacter
-          <Image src={assets.right_arrow_white} alt="" className="w-4" />
+          <Image
+            src={assets.right_arrow_white}
+            alt="Picto qui renvoie au formulaire de contact"
+            className="w-4"
+          />
         </a>
         <a
           href="/resume.pdf"
@@ -55,7 +67,11 @@ const Header = () => {
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-amber-50 hover:bg-lightHover/30 duration-500 dark:text-black dark:bg-white/90 dark:hover:bg-white"
         >
           Télécharger mon CV
-          <Image src={assets.download_icon} alt="" className="w-4" />
+          <Image
+            src={assets.download_icon}
+            alt="Picto pour télécharger le CV de Thomas Humbert"
+            className="w-4"
+          />
         </a>
       </div>
     </div>

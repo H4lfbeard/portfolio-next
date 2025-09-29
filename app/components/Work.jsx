@@ -45,7 +45,11 @@ export const Work = ({ isDarkMode }) => {
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
               <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-amber-400 transition">
-                <Image src={assets.send_icon} alt="sent icon" className="w-5" />
+                <Image
+                  src={assets.send_icon}
+                  alt="Picto envoyer"
+                  className="w-5"
+                />
               </div>
             </a>
           </li>
@@ -62,7 +66,7 @@ export const Work = ({ isDarkMode }) => {
           src={
             isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold
           }
-          alt="right arrow"
+          alt="flèche droite"
           className="w-4"
         />
       </a>
